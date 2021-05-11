@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.qs.springcloud.mapper.OoegMapper">
+    <select id="queryById" resultType="Ooeg">
+        select ooeg001,ooegstus,ooeg003 from ooeg_t where ooegent = 7 and ooeg001=#{id}
+    </select>
+
+    <select id="queryAll" resultType="Ooeg">
+        select ooeg001,ooegstus,ooeg003 from ooeg_t where ooegent = 7
+    </select>
+</mapper>

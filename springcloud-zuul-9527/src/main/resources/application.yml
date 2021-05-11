@@ -1,0 +1,37 @@
+server:
+  port: 9527
+
+
+spring:
+  application:
+    name: springcloud-zuul
+
+
+#Eureka 的配置，服务注册的哪里
+eureka:
+  client:
+    service-url:
+      #     集群时配置多个http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+      defaultZone: http://localhost:7003/eureka/
+  instance:
+    instance-id: springcloud-zuul #修改eureka 上的默认描述信息
+
+
+#info配置
+info:
+  app.name: qs-springcloud #应用名称
+  company.name: com.qs.com #公司名称
+
+#zuul:
+#  routes:
+#    mydept.servicId: springcloud-provider-ooeg  #springcloud-provider-ooeg：服务名称
+#    mydept.path: /mydept/**   #/mydept/**:请求的地址部分
+##    ignored-services: springcloud-provider-ooeg #不能再使用这个路径在访问，springcloud-provider-ooeg 隐藏单个，*隐藏全部
+##    prefix: /qs #设置公共的前缀
+
+#上面的zuul 访问有问题 报错：Load balancer does not have available server for client: mydept
+zuul:
+  routes:
+    user-service:
+      path: /mydept/**
+      serviceId: springcloud-provider-ooeg

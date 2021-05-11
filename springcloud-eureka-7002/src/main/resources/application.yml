@@ -1,0 +1,17 @@
+server:
+  port: 7002
+
+
+#Eureka配置
+eureka:
+  instance:
+    hostname: localhost  #Eureka服务端的实例名称
+  #    hostname: eureka7002.com #测试集群修改成的名称   实际对应的还是 localhost   (进行了域名映射)
+
+  client:
+    register-with-eureka: false  #表示是否向eureka注册自己
+    fetch-registry: false  #false 表示自己是注册中心
+    service-url:    #和eureka注册中心交互 （监控页面）
+      #    单机配置成 http://${eureka.instance.hostname}:${server.port}/eureka/  # $中配置的都在当前页面
+      #    集群方式：http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/  # $中配置的都在当前页面

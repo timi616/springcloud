@@ -1,0 +1,30 @@
+server:
+  port: 8002
+mybatis:
+  type-aliases-package: com.qs.springcloud.pojo
+#  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*xml
+
+spring:
+  application:
+    name: springcloud-provider-ooeg
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource #数据源
+    url: jdbc:oracle:thin:@192.168.100.102:1521/topprd
+    username: dsdata
+    password: dsdata
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+
+#Eureka 的配置，服务注册的哪里
+eureka:
+  client:
+    service-url:
+#     集群时配置多个http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+      defaultZone: http://localhost:7003/eureka/
+  instance:
+    instance-id: springcloud-provider-ooeg8002 #修改eureka 上的默认描述信息
+
+#info配置
+info:
+  app.name: qs-springcloud #应用名称
+  company.name: com.qs.com #公司名称

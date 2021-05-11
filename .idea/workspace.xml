@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bedf6d1d-d99e-47b6-b2b9-d4f996d34c0c" name="Default Changelist" comment="eureka-ribbon-feign-hystrix-zuul">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/src/main/java/com/qs/springcloud/pojo/Ooeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/src/main/java/com/qs/springcloud/service/OoegClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/src/main/java/com/qs/springcloud/service/OoegClientServiceFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/target/classes/com/qs/springcloud/pojo/Ooeg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/target/classes/com/qs/springcloud/service/OoegClientService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/target/classes/com/qs/springcloud/service/OoegClientServiceFallbackFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/target/classes/com/qs/springcloud/service/OoegClientServiceFallbackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-80/src/main/java/com/qs/myrule/QsRandomRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-80/src/main/java/com/qs/myrule/QsRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-80/src/main/java/com/qs/springcloud/OoegController_80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-80/src/main/java/com/qs/springcloud/config/ConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-80/src/main/java/com/qs/springcloud/controller/OoegConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-80/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-80/target/classes/com/qs/myrule/QsRandomRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-80/target/classes/com/qs/myrule/QsRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-80/target/classes/com/qs/springcloud/OoegController_80.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-80/target/classes/com/qs/springcloud/config/ConfigBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-80/target/classes/com/qs/springcloud/controller/OoegConsumerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-feign/src/main/java/com/qs/springcloud/FeignOoegController_80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-feign/src/main/java/com/qs/springcloud/config/ConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-feign/src/main/java/com/qs/springcloud/controller/OoegConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-feign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-feign/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-feign/target/classes/com/qs/springcloud/FeignOoegController_80.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-feign/target/classes/com/qs/springcloud/config/ConfigBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-Ooeg-feign/target/classes/com/qs/springcloud/controller/OoegConsumerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/src/main/java/com/qs/springcloud/OoegConsumerDashboard_9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/target/classes/com/qs/springcloud/OoegConsumerDashboard_9001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/java/com/qs/springcloud/EurekaServer_7001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/target/classes/com/qs/springcloud/EurekaServer_7001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/src/main/java/com/qs/springcloud/EurekaServer_7002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/src/main/java/com/qs/springcloud/EurekaServer_7003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/target/classes/com/qs/springcloud/EurekaServer_7003.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/src/main/java/com/qs/springcloud/OoegProvider_8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/src/main/java/com/qs/springcloud/controller/OoegController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/src/main/java/com/qs/springcloud/mapper/OoegMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/src/main/java/com/qs/springcloud/service/OoegService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/src/main/java/com/qs/springcloud/service/impl/OoegServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/src/main/resources/mybatis/mapper/OoegMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/target/classes/com/qs/springcloud/OoegProvider_8001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/target/classes/com/qs/springcloud/controller/OoegController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/target/classes/com/qs/springcloud/mapper/OoegMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/target/classes/com/qs/springcloud/service/OoegService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/target/classes/com/qs/springcloud/service/impl/OoegServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8001/target/classes/mybatis/mapper/OoegMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8002/src/main/java/com/qs/springcloud/OoegProvider_8002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8002/src/main/java/com/qs/springcloud/controller/OoegController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8002/src/main/java/com/qs/springcloud/mapper/OoegMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8002/src/main/java/com/qs/springcloud/service/OoegService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8002/src/main/java/com/qs/springcloud/service/impl/OoegServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8002/src/main/resources/mybatis/mapper/OoegMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/src/main/java/com/qs/springcloud/OoegProvider_8003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/src/main/java/com/qs/springcloud/controller/OoegController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/src/main/java/com/qs/springcloud/mapper/OoegMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/src/main/java/com/qs/springcloud/service/OoegService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/src/main/java/com/qs/springcloud/service/impl/OoegServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/src/main/resources/mybatis/mapper/OoegMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/target/classes/com/qs/springcloud/OoegProvider_8003.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/target/classes/com/qs/springcloud/controller/OoegController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/target/classes/com/qs/springcloud/mapper/OoegMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/target/classes/com/qs/springcloud/service/OoegService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/target/classes/com/qs/springcloud/service/impl/OoegServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-8003/target/classes/mybatis/mapper/OoegMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/src/main/java/com/qs/springcloud/OoegProviderHystrix_8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/src/main/java/com/qs/springcloud/controller/OoegController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/src/main/java/com/qs/springcloud/mapper/OoegMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/src/main/java/com/qs/springcloud/service/OoegService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/src/main/java/com/qs/springcloud/service/impl/OoegServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/src/main/resources/mybatis/mapper/OoegMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/target/classes/com/qs/springcloud/OoegProviderHystrix_8001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/target/classes/com/qs/springcloud/controller/OoegController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/target/classes/com/qs/springcloud/mapper/OoegMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/target/classes/com/qs/springcloud/service/OoegService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/target/classes/com/qs/springcloud/service/impl/OoegServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/target/classes/mybatis/mapper/OoegMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9527/src/main/java/com/qs/springcloud/ZuulApplication_9527.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9527/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9527/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9527/target/classes/com/qs/springcloud/ZuulApplication_9527.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/apache-maven-3.6.3/repository" />
+        <option name="mavenHome" value="/Library/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1s9LsPCBpMEMFfW7UXt44s1IkiB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/src/main/resources/mybatis/mapper" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/src/main/resources/mybatis/mapper" />
+      <recent name="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/src/main/java/com/qs/springcloud" />
+      <recent name="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-two-8001/src/main/resources" />
+      <recent name="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-8001/src/main/java/com.qs.springcloud" />
+      <recent name="$PROJECT_DIR$/springcloud-provider-ooeg-hystrix-8001/src/main/resources/mybatis.mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springcloud-provider-ooeg-8002/src/main/resources/mybatis" />
+      <recent name="$PROJECT_DIR$/springcloud-provider-ooeg-8003/src/main/resources/mybatis" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qs.springcloud.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ZuulApplication_9527">
+    <configuration name="EurekaServer_7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-eureka-7003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qs.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qs.springcloud.EurekaServer_7003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OoegConsumerDashboard_9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-consumer-hystrix-dashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qs.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qs.springcloud.OoegConsumerDashboard_9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OoegProviderHystrix_8001 (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-provider-ooeg-hystrix-two-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qs.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qs.springcloud.OoegProviderHystrix_8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OoegProviderHystrix_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-provider-ooeg-hystrix-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qs.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qs.springcloud.OoegProviderHystrix_8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OoegProvider_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-provider-ooeg-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qs.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qs.springcloud.OoegProvider_8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication_9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-zuul-9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qs.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qs.springcloud.ZuulApplication_9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ZuulApplication_9527" />
+        <item itemvalue="Spring Boot.OoegProviderHystrix_8001 (1)" />
+        <item itemvalue="Spring Boot.EurekaServer_7003" />
+        <item itemvalue="Spring Boot.OoegConsumerDashboard_9001" />
+        <item itemvalue="Spring Boot.OoegProvider_8001" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bedf6d1d-d99e-47b6-b2b9-d4f996d34c0c" name="Default Changelist" comment="" />
+      <created>1620280069592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620280069592</updated>
+      <workItem from="1620280071797" duration="9791000" />
+      <workItem from="1620349369246" duration="16085000" />
+      <workItem from="1620376949526" duration="2816000" />
+      <workItem from="1620439992347" duration="13375000" />
+      <workItem from="1620470921964" duration="792000" />
+      <workItem from="1620612374469" duration="7441000" />
+      <workItem from="1620622138477" duration="1294000" />
+      <workItem from="1620623776335" duration="14305000" />
+      <workItem from="1620643532145" duration="1350000" />
+      <workItem from="1620695016141" duration="6822000" />
+      <workItem from="1620704411388" duration="6404000" />
+      <workItem from="1620712297295" duration="1345000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="eureka-ribbon-feign-hystrix-zuul" />
+    <option name="LAST_COMMIT_MESSAGE" value="eureka-ribbon-feign-hystrix-zuul" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
